@@ -1,0 +1,38 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		
+			
+		
+		
+}
+}
+public override string ToString(){
+	
+}
+
+	
+
+	public class Ulamek
+		{
+		private int licznik;
+			private int mianownik;
+		public Ulamek() {
+			Console.WriteLine("jestem domyslny");
+			}
+		public Ulamek(int licznik, int mianownik){
+			licznik = this.licznik;
+			mianownik = this.mianownik;
+			Console.WriteLine("jestem zwykly");
+		}
+		public Ulamek(Ulamek poprzedni){
+			licznik = poprzedni.licznik;
+			mianownik = poprzedni.mianownik;
+			Console.WriteLine("jestem kopiujacy");
+		}
+	}
+	
+	
